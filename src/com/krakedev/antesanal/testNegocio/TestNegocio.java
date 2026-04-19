@@ -1,0 +1,21 @@
+package com.krakedev.antesanal.testNegocio;
+
+import com.krakdev.artesanal.Maquina;
+import com.krakdev.artesanal.Negocio;
+
+public class TestNegocio {
+
+	public static void main(String[] args) {
+		Maquina maquinaNueva = new Maquina("CR001","Cerveza Pilsen", "Clara, sabor ligero",0.02,8000);
+		Negocio negocio1 = new Negocio("Mi Negocio",maquinaNueva);
+		
+		System.out.println("Nombre: "+negocio1.getNombre());
+		System.out.println("Maquina: "+negocio1.getMaquinaA());
+		
+		Maquina m1 = negocio1.getMaquinaA();
+		
+		double capacidad = m1.getCapacidadMaxima();
+		
+	}
+
+}
