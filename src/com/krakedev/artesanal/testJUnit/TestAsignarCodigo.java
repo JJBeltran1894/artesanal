@@ -1,0 +1,26 @@
+package com.krakedev.artesanal.testJUnit;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import com.krakdev.artesanal.Cliente;
+import com.krakdev.artesanal.Negocio;
+
+public class TestAsignarCodigo {
+	
+	
+	@Test
+	public void asignarCodigo() {
+		Negocio barDeMoe = new Negocio();
+		Cliente mario = new Cliente("Mario", "123456789");
+		Cliente andres = new Cliente("Andres", "123456780");
+		
+		barDeMoe.asignarCodigoCliente(mario);
+		barDeMoe.asignarCodigoCliente(andres);
+		
+		assertEquals(100,mario.getCodigo());
+		assertEquals(101,andres.getCodigo());
+	}
+	
+}
