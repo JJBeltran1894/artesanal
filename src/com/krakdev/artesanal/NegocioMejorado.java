@@ -52,6 +52,14 @@ public class NegocioMejorado {
 		}
 		return null;
 	}
+	
+	public void registrarCliente(String nombre, String cedula) {
+		Cliente cliente = new Cliente(nombre,cedula);
+		cliente.setCodigo(ultimoCodigo);
+		ultimoCodigo++;
+		clientes.add(cliente);
+	}
+
 
 	
 	
