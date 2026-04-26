@@ -1,6 +1,6 @@
-package com.krakdev.artesanal.test;
+package com.krakedev.artesanal.test;
 
-import com.krakdev.artesanal.Maquina;
+import com.krakedev.artesanal.Maquina;
 
 public class TestServir {
 

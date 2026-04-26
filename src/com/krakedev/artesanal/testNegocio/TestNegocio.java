@@ -1,7 +1,7 @@
-package com.krakedev.antesanal.testNegocio;
+package com.krakedev.artesanal.testNegocio;
 
-import com.krakdev.artesanal.Maquina;
-import com.krakdev.artesanal.Negocio;
+import com.krakedev.artesanal.Maquina;
+import com.krakedev.artesanal.Negocio;
 
 public class TestNegocio {
 

@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.krakdev.artesanal.Maquina;
+import com.krakedev.artesanal.Maquina;
 
 public class TestRecargarJUnit {
 	@Test

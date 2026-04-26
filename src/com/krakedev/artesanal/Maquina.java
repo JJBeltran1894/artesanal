@@ -1,4 +1,4 @@
-package com.krakdev.artesanal;
+package com.krakedev.artesanal;
 
 
 public class Maquina {

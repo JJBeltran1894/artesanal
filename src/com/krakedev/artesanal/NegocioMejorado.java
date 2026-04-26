@@ -1,4 +1,4 @@
-package com.krakdev.artesanal;
+package com.krakedev.artesanal;
 
 import java.util.ArrayList;
 

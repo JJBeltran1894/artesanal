@@ -2,9 +2,9 @@ package com.krakedev.artesanal.testJUnit;
 
 import org.junit.jupiter.api.Test;
 
-import com.krakdev.artesanal.Cliente;
-import com.krakdev.artesanal.Maquina;
-import com.krakdev.artesanal.NegocioMejorado;
+import com.krakedev.artesanal.Cliente;
+import com.krakedev.artesanal.Maquina;
+import com.krakedev.artesanal.NegocioMejorado;
 
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
