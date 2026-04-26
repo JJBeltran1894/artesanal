@@ -12,6 +12,13 @@ public class Cliente {
 
 	}
 	
+	public Cliente(String nombre, String cedula, int codigo) {
+		this.nombre = nombre;
+		this.cedula = cedula;
+		this.codigo = codigo;
+		this.totalConsumido = 0;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
