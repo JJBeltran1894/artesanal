@@ -26,6 +26,34 @@ public class NegocioMejorado {
 		
 	}
 	
+	public boolean agregarMaquina(String nombre, String descripcion, double precioPorMl) {
+		String codigo = generarCodigo();
+		Maquina maquinaRecuperada=recuperarMaquina(codigo);
+		if(maquinaRecuperada==null) {
+			Maquina maquina = new Maquina(codigo, nombre, descripcion, precioPorMl);
+			maquinas.add(maquina);
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	public void cargarMaquinas() {
+		for(int i=0;i<maquinas.size();i++) {
+			maquinas.get(i).llenarMaquina();
+		}
+	}
+	
+	public Maquina recuperarMaquina(String codigo) {
+		for(int i=0;i<maquinas.size();i++) {
+			if(maquinas.get(i).getCodigo().equals(codigo)) {
+				return maquinas.get(i);
+			}
+		}
+		return null;
+	}
+
+	
 	
 
 }
